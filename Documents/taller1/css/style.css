@@ -1,0 +1,44 @@
+.frm-input{
+    width: 100%;
+    min-height: 2.5rem;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+
+.form-group{
+    width: 91%;
+    min-height: 2.5rem;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+    border: none;
+}
+
+.btn-enviar{
+    background: #800080;
+    padding: 0.5rem 1rem;
+    color: #ffffff;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 20px;
+    border-color: #000;
+}
+
+.card{
+    background-color: #800080;
+    border-radius: 10px;
+}
+
+.card-title{
+    text-align: center; 
+    font-family: Arial; 
+    font-weight: bold; 
+    font-size: 20px; 
+    color: #ffffff; 
+    text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+}
+
+.btn-outline-light{
+    font-size: 14px;
+}

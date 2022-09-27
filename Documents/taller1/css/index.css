@@ -1,0 +1,107 @@
+    
+    body {
+        background: url('../img/index.jpg') center / cover no-repeat;
+        background-repeat: repeat;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    
+    .menu-bar {
+        border-radius: 25px;
+        height: fit-content;
+        display: inline-flex;
+        background-color: #00000066;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);  
+        align-items: center;
+        padding: 0 10px;
+        margin: 50px 200px 0 200px;
+        justify-content: center;
+
+    }
+
+    a {
+        list-style: none;
+        color: white !important;
+        font-family: Arial; 
+        font-weight: bold; 
+        padding: 12px 16px;
+        margin: 0 8px;
+        position: relative;
+        cursor: pointer;
+        white-space: nowrap;
+        text-decoration: none !important;
+
+    }
+
+    a:before {
+        content: " ";
+        position: absolute;
+        top: 0;
+        left:0;
+        height:100%;
+        width: 100%;
+        z-index:-1;
+        transition: .2s;
+        border-radius: 25px;
+    }
+    
+    a:hover {
+        background: #800080;
+        border-radius: 25px;
+        box-shadow: 0px 3px 20px 0px black;
+        transform: scale(1.2);
+                    
+    }
+
+    .box{
+        width: 400px;
+        background: #800080a0;
+        padding: 30px;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 20px;
+    }
+
+    .general{
+        width: 950px;
+        background: #800080a0;
+        padding: 30px;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+
+    .cards{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    h1{
+        text-align: center; 
+        font-family: Arial; 
+        font-weight: bold; 
+        font-size: 40px; 
+        color: #ffffff; 
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    }
+
+    .title{
+        text-align: center; 
+        font-family: Arial; 
+        font-weight: bold; 
+        font-size: 30px; 
+        color: #ffffff; 
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    }
+
+    img{
+        border-radius: 20px;
+        height: 300px;
+    }
